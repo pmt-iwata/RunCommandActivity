@@ -29,7 +29,6 @@
             Converter={StaticResource ArgumentToExpressionConverter}, 
             Mode=TwoWay}"
         ExpressionType="{x:Type s:String}"
-        HintText="Enter a string array"
         OwnerActivity="{Binding ModelItem}"
         Grid.Column="1" />
 
@@ -40,7 +39,6 @@
             Converter={StaticResource ArgumentToExpressionConverter}, 
             Mode=TwoWay}"
         ExpressionType="{x:Type s:String}"
-        HintText="Enter a string array"
         OwnerActivity="{Binding ModelItem}"
         Grid.Row="2" Grid.Column="1" />
     </Grid>

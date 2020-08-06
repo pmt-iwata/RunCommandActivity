@@ -57,10 +57,10 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActivityDesigner.xaml.cs">
+    <Compile Include="Activity\RunCommandActivity.cs" />
+    <Compile Include="Designer\ActivityDesigner.xaml.cs">
       <DependentUpon>ActivityDesigner.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Activity\RunCommandActivity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,9 +70,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="ActivityDesigner.xaml">
-      <SubType>Designer</SubType>
+    <Page Include="Designer\ActivityDesigner.xaml">
       <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
